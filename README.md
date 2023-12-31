@@ -1,5 +1,7 @@
 # Image Gallery
 
+   <img src="./src/assets/search-for-cats.png">
+
 ## Create card template
 
 1. set up tailwind and react
@@ -47,7 +49,7 @@ Fetching data and make the card template into component looping through all the 
 ## Image Tags Component
 
 since the tags are included in an array.
-<img src="">
+<img src="./src/assets/api.png">
 
 1. we get image as the prop in imageCard, since tags belongs to each image, so we can loop through the tag in the place that we want to display tags.
 2. used split() which can convert string into array
@@ -56,3 +58,4 @@ since the tags are included in an array.
 
 1. format
 2. logic: since this is a form, we need get the user input, so we get a state 'text' whever the input is onChange. However, this is not an App level state, so when user click search button, we need using prop to transfer the 'text' to the APP level 'term'
+3. term as dependency, whenever term change, the useEffect will run again.
