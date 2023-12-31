@@ -23,7 +23,7 @@ function App() {
       <div className="grid grid-cols-3 gap-4">
         {images.map((image) => (
           // we need to pass a key, cause we are creating a list and this needs to be a unique value
-          <ImageCard key={image.id} />
+          <ImageCard key={image.id} image={image} />
         ))}
       </div>
     </div>

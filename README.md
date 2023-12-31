@@ -39,3 +39,7 @@ Fetching data and make the card template into component looping through all the 
 2. we create ImageCard components, and in App.js, we loop through the images array, put each image into ImageCard components.
 3. notice that: since we are creating a list, we need attribute 'key', which must be unique.
 4. next step, passing image as prop, from app.js to imagecard.js
+
+## Image Prop Component
+
+1.passing prop image, which is every image from the images list of App.js, passing to imageCard, and we can get the info from each image, to set views, authors, likes...
