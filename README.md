@@ -43,3 +43,11 @@ Fetching data and make the card template into component looping through all the 
 ## Image Prop Component
 
 1.passing prop image, which is every image from the images list of App.js, passing to imageCard, and we can get the info from each image, to set views, authors, likes...
+
+## Image Tags Component
+
+since the tags are included in an array.
+<img src="">
+
+1. we get image as the prop in imageCard, since tags belongs to each image, so we can loop through the tag in the place that we want to display tags.
+2. used split() which can convert string into array
