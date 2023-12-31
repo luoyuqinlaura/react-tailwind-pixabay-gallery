@@ -24,3 +24,18 @@ npm start
 @tailwind utilities;
 
 ```
+
+## Create API Key
+
+Fetching data and make the card template into component looping through all the images.
+
+1. Pixabey API
+   get myself api key, save it in the .env file
+2. useEffect: how we make request
+
+## Image Card Component
+
+1. fetching the data and put it into the state(setImages), now all the hits array are put into Images
+2. we create ImageCard components, and in App.js, we loop through the images array, put each image into ImageCard components.
+3. notice that: since we are creating a list, we need attribute 'key', which must be unique.
+4. next step, passing image as prop, from app.js to imagecard.js
