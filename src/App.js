@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ImageCard from './components/ImageCard';
+import ImageSearch from './components/ImageSearch';
+
 function App() {
   const [images, setImages] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -20,6 +22,7 @@ function App() {
 
   return (
     <div className="container mx-auto">
+      <ImageSearch />
       {isLoading ? (
         <h1 className="text-6xl mx-auto text-center mt-32">Loading...</h1>
       ) : (
